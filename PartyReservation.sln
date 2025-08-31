@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyReservation.API", "PartyReservationAPI\PartyReservation.API.csproj", "{2CB41C9D-98D1-4966-8C73-63E3E53D8B1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyReservation.Shared", "PartyReservation.Shared\PartyReservation.Shared.csproj", "{A53EEF3E-A0A9-4D00-9D3C-EA5FDC5D9AAC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyReservation.Data", "PartyReservation.Data\PartyReservation.Data.csproj", "{90EEB8D1-AE4E-47E2-8E5C-241952637069}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyReservation.Services.Tests", "PartyReservationTests\PartyReservation.Services.Tests.csproj", "{EC6C6B44-923C-4DC0-8AC9-6C4E14D622FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PartyReservation.Services", "PartyReservation.Services\PartyReservation.Services.csproj", "{D526E5C8-330D-45B8-8436-640546DDF40B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A3353220-CAF2-4C38-96FB-302B88310027}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CB41C9D-98D1-4966-8C73-63E3E53D8B1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB41C9D-98D1-4966-8C73-63E3E53D8B1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB41C9D-98D1-4966-8C73-63E3E53D8B1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB41C9D-98D1-4966-8C73-63E3E53D8B1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A53EEF3E-A0A9-4D00-9D3C-EA5FDC5D9AAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A53EEF3E-A0A9-4D00-9D3C-EA5FDC5D9AAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A53EEF3E-A0A9-4D00-9D3C-EA5FDC5D9AAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A53EEF3E-A0A9-4D00-9D3C-EA5FDC5D9AAC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90EEB8D1-AE4E-47E2-8E5C-241952637069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90EEB8D1-AE4E-47E2-8E5C-241952637069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90EEB8D1-AE4E-47E2-8E5C-241952637069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90EEB8D1-AE4E-47E2-8E5C-241952637069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC6C6B44-923C-4DC0-8AC9-6C4E14D622FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC6C6B44-923C-4DC0-8AC9-6C4E14D622FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC6C6B44-923C-4DC0-8AC9-6C4E14D622FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC6C6B44-923C-4DC0-8AC9-6C4E14D622FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D526E5C8-330D-45B8-8436-640546DDF40B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D526E5C8-330D-45B8-8436-640546DDF40B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D526E5C8-330D-45B8-8436-640546DDF40B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D526E5C8-330D-45B8-8436-640546DDF40B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAE9EE1F-B701-4A76-A7E4-D43AAAED805C}
+	EndGlobalSection
+EndGlobal
