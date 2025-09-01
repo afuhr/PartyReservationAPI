@@ -12,7 +12,7 @@ API para gestionar reservas de salones de cumpleaños.
        "DefaultConnection": "Data Source=party_reservation.db"
    }
 3. Ejecutar la API (F5 en Visual Studio)
-4. La API estará disponible en: http://localhost:5000
+4. La API estará disponible en: http://0.0.0.0:5000
 
 ## Ejecutar localmente (con Docker)
 1. Construir la imagen: docker build -t partyreservationapi .
